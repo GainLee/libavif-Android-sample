@@ -8,6 +8,13 @@ It contains three prebuilt libraries, libavif, a decoder library, and an encoder
 them without going through the build process, they are all static library builds. The decoder is libgav1 and the encoder is AOM.
 If you want to replace the codec,  you will replace not only  the corresponding codec static library,  but alslo the libavif static library, which means you must recompile the libavif static library, and modify the corresponding include file. You can refer to the libavif repository for compilation.
 
+## Images
+**android.avif**: from [ndk-samples](https://github.com/android/ndk-samples/blob/develop/webp/image-decoder/src/main/assets/images/android.avif)
+
+**fox.avif**: from [avif-sample-images](https://github.com/link-u/avif-sample-images)
+
+**dog.jpg and 4032x3024.y420**: bought from my dog with a bone
+
 
 ## License
 

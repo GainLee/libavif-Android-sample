@@ -38,7 +38,7 @@ fun AVIFEncodeView(navController: NavController, avifViewModel: AVIFViewModel) {
         Button(
             onClick = {
                 hint.value = "Encoding..."
-                avifViewModel.encodeRGBA("images/FullSizeRender.jpg")
+                avifViewModel.encodeRGBA("images/dog.jpg")
                       },
             modifier = Modifier
                 .fillMaxWidth()
@@ -53,7 +53,7 @@ fun AVIFEncodeView(navController: NavController, avifViewModel: AVIFViewModel) {
         Button(
             onClick = {
                 hint.value = "Encoding..."
-                avifViewModel.encodeYUV("images/4032x3024.yuv", 4032, 3024)
+                avifViewModel.encodeYUV("images/4032x3024.y420", 4032, 3024)
             },
             modifier = Modifier
                 .fillMaxWidth()
